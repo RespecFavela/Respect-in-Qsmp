@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: #3da659;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.imagemlogo{
+    margin-left:1%;
+    text-align: center;
+  
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.logo h1{
+    font-family: 'Lobster', cursive;
+    color: #180F4A;
+    font-size:34px;
+}
+
+.menu{
+    flex:10%;
+    text-align: right;
+    padding: 10px;
+}
+
+.menu a{
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #c7b342;
+    border-top: 4px solid #180F4A;
+}
+
+#botao{
+    background:#180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border:none;
+    background:#c7b342; 
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #134aba;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left:10%;
+    flex:40%;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+.headline p{
+    color:#3da659;
+    text-align: left;
+    font-weight: bold;
+}
+
+.img-headline{
+    margin-right:10%;
+    flex:40%;
+    text-align: center;
+
+}
+
+.div1{
+    border-top: 5px solid #c7b342;
+    height: 50%x;
+    width: 100%;
+    background-color: #043309;
+}
+
+section{
+   
+    height: 150%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    color: #c7b342;
+}
+
+.quemsomos{
+    display:inline-flex;
+    margin-top: 5%;   
+}
+
+.paragrafo{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    display: inline;
+    width: 60%;
+    padding: 20px;
+    margin:1%;
+}
+
+
+.div2{
+    border-top: 5px solid #134aba;
+    height: 50%x;
+    width: 100%;
+    background-color:#c7b342 ;
+}
+
+
+ h3{
+    padding-top:  40px;
+    height: 80x;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+    text-align: center;
+    
+}
+
+.servicos{
+    font-weight: bold;
+    color: #180F4A;
+    font-family: "Quicksand", sans-serif;
+    display: inline-block;
+    margin-top: 5%;
+   
+}
+
+.card{
+    
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #3da659;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.texto-oculto{
+    display: none;
+   
+}
+
+.card:hover{
+    background:#3da659;
+    padding: 40px;
+    text-align: center;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+
+
+.div3{
+    border-top: 5px solid #043309;
+    height: 50%;
+    width: 100%;
+    background-color:#134aba;
+}
+
+.nosajude{
+    margin-bottom: 10%;
+    flex: 20%;
+    text-align: center;
+   
+
+}
+
+.paragrafoS{
+    color: white;
+    font-family: 'Lobster', cursive;   
+
+
+}
+
+.bdiscord{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.bdiscord a{
+    color: #364aad;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+
+}
+
+.bdiscord a:hover{
+    color: #c7b342;
+}
+
+#botaoS{
+    background:#364aad;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#botaoS:hover{
+    border:none;
+    background:#c7b342; 
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(180deg,#3da659,#043309);
+    text-align: center;
+    border-top: 5px solid#c7b342 ;
+    padding-bottom:  20px;
+}
+
+.logo-rodape{
+
+    padding: 20px;
+}
+
+.respect{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size:34px;
+}
+
+.discord{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 60px;
+}
+
+
+
+
